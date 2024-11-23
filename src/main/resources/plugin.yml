@@ -1,0 +1,15 @@
+name: UltraThunderStorm
+version: '1.0'
+main: net.abhinav.ultrathunderstorm.UltraThunderStorm
+api-version: '1.21'
+load: STARTUP
+authors: [ Abhinav VS ]
+description: "Adds intense thunderstorm events to Minecraft. Experience storms with up to 100 lightning strikes per second, intense particles, and the chance for large fires! Configurable for server admins."
+commands:
+  ultrastorm:
+    description: Manually trigger an intense thunderstorm.
+    usage: /ultrastorm
+permissions:
+  ultrastorm.command:
+    description: Allows triggering a manual intense thunderstorm.
+    default: op

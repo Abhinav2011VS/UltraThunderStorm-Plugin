@@ -1,0 +1,6 @@
+# Ultra Thunder Storm Configuration
+
+enabled: true # Enable or disable the plugin
+chance: 20    # Percent chance for a thunderstorm to become "intense"
+large_fire: true # Enable or disable large fires during intense storms
+particles: true  # Enable or disable intense particles during intense storms
